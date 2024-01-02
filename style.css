@@ -1,0 +1,414 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(0, 0, 33);
+    color: white;
+    font-family: 'popine ',sans-serif;
+}
+nav{
+    height: 100px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background: rgb(18, 18, 62);
+} 
+nav ul{
+    display: flex;
+    justify-content: center;
+    list-style: none;
+}nav ul li{
+    margin: 0 15px;
+}
+nav ul li a{
+    font-size: 1.4rem;
+    font-weight: 600;
+    text-decoration: none;
+    color: white;
+}
+nav ul li a:hover{
+    font-size: 1.4rem;
+    text-decoration: underline;
+
+}.left{
+    font-size: 2.5rem;
+     font-weight: 600;
+     cursor: pointer;     
+}
+.firstSection{
+    height: 80vh;
+   display: flex;
+   flex-wrap: wrap;
+   justify-content: space-around;
+   align-items: center;
+   /* margin-top: 170px; */
+}
+
+.leftSection{
+   font-size: 2rem;
+   margin-top: 30px;
+}
+#element{
+    color: rgb(170, 107, 128);
+}
+.purpel{
+    color: rgb(170, 107, 128);
+}
+.rightsection img{
+    width: 100%;
+}
+hr{
+    background-color: rgb(170, 107, 128);
+    border: 0;
+    height: 1px;
+    margin: 20px 0;
+}
+
+.services{
+        margin-top: 10%;
+    height: 80vh;
+    width: 100%;
+    border: 2px solid ;
+    background-image: url("https://c0.wallpaperflare.com/preview/676/227/773/setup-desk-workspace-computer.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+   
+    z-index: -1;
+}
+
+.content >h1{
+    color: yellow;
+    text-align: center;
+}
+.content{
+    display: flex;
+    align-items: center;
+    flex-flow: column;
+    color: white;
+    text-transform: capitalize;
+    opacity: 1;
+    z-index: 2;
+}
+p{
+    text-align: center;
+    width: 80%;
+}
+.feild-tec{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 10%;
+}
+.box{
+    border: 1px solid white;
+    width: 250px;
+    height: 250px;
+    transition: all 0.2s linear;
+    cursor: pointer;
+}
+.box{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+    color: white;
+    font-size: 19px;
+    text-transform: capitalize;
+}
+.heading{
+    height: auto;
+    width: auto;
+    font-size: 1.6rem;
+    color: white;
+}
+.heading p{
+    font-size: 16px;
+    font-weight: 200;
+    text-align:start;
+   margin-left: 30px;
+
+}
+.box>h1{
+    font-size: 22px;
+}
+.heading h1{
+    font-size: 2rem;
+    font-weight: 300;
+    text-align: left;
+    margin-left: 30px;
+}
+.database{
+    margin: 40px;
+}
+
+
+.imagetwo{
+    width: 80%;
+    margin: auto;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.line{
+    width: 80%;
+    height: 5px;
+    margin: auto;
+    background-color: white; 
+    display: flex;
+    flex-direction: column;
+}.line .vertical{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    justify-content: space-between;
+
+
+}
+.vertical .vertical-line{
+    height: 90px;
+    width: 5px;
+    background-color: white;
+}
+
+.vertical .vertical-line >h1{
+    font-size: 25px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+.vertical-title{
+    margin-top: 100px;
+    width: 20vw;
+    font-size: 20px;
+    text-align: left;
+    color: aquamarine;
+
+}.vertical-title h3{
+    color: aqua;
+    font-weight: bolder;
+    position: relative;
+    left: -20%;
+
+} .vertiacal-disc {
+    width: 15vw;
+    color: white;
+    text-align:left;
+  
+}
+.vertiacal-disc p{
+    position: relative;
+    left: -25%;
+}
+.second-section{
+    width: 100%;
+    height:  80vh;
+    margin: 100px;
+
+    
+}
+.break{
+ width: 90%;
+
+}
+.box>img{
+    display: flex;
+    width: 100PX;
+    
+}
+.contect{
+    width: 100%;
+    height: 90vh;
+    background-color: darkolivegreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.ract{
+    width: 60%;
+    height: 35%;
+    border: 2px solid darkgreen;
+    background-color: darkgreen;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 20px;
+}
+
+
+.textp>h1{
+    font-size: 25px;
+    font-weight: 300;
+    position: relative;
+    left: 20px;    
+}
+.textp>p{
+    font-size: 15px;
+    font-weight: 300;
+    text-align: start;
+    position: relative;
+    left: 20px;
+
+}
+.email{
+ width: 100%;
+ height: 80%;
+ 
+    display: flex;
+    flex-direction: column;
+   margin-top: 40px;
+    
+    
+}
+.chat{
+width: 70%;
+height: 25%;
+border: 2px solid darkgreen;
+background-color: green;
+border-radius: 8px;
+margin-bottom: 10PX;
+}
+.chat>h1 {
+    font-size: 15px;
+    margin-top: 5px;
+    font-weight: 200;
+    margin-bottom: -20px;
+    margin-left: -40px ;
+   
+    position: relative;
+    left: 30%;
+}
+.lo{
+    color: darkgreen;
+    font-size: 20px;
+    margin-top: 5px;
+}
+.chat>h3{
+    font-size: 15px;
+    font-weight: 100;
+} 
+.phone{
+    width: 70%;
+height: 25%;
+border: 2px solid darkgreen;
+background-color: green;
+border-radius: 8px;
+
+}
+.phone>h1{
+    font-size: 15px;
+    font-weight: 200;
+    margin-bottom: -20px;
+    margin-top: 1px;
+    margin-left: 30px ;
+}
+.loo{
+    color: darkgreen;
+    font-size: 25px;
+    margin-top: 10px;
+
+}
+.phone>h4{
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 30px ; 
+
+}
+.third-section{
+    /* width: 100%;  */
+    height: 110vh;
+    background-color: white;
+}
+.about{
+    width: 100%;
+    height: 100%;
+     display: flex;
+    align-items: center;  
+}
+.png{
+width: 350px;
+height: 500px;
+position: relative;
+left: 30%;
+
+}
+.about-text{
+    width: auto;
+    
+}
+.about-text h1{
+    font-size: 30px;
+    font-weight: 400;
+    color: goldenrod;
+    text-align: center;
+
+}
+.about-text p{
+    font-size: 15px;
+    font-weight:200 ;
+    color: black;
+    text-align: left;
+    position: relative;
+    left: 15%;
+}
+.dat{
+    width: auto;
+    display: grid;
+    grid-template-columns: repeat(2,20%);
+   
+}
+.dat h1{
+    font-size: 20px;
+    font-weight: 200;
+    color: black;
+    position: relative;
+    left: 56%;
+    margin-top: 20px;
+}
+.resume-btn{
+
+      position: relative;
+      left:15%;
+      margin-top: 5%;
+
+}.resume-btn a{
+
+    font-size: 20px;
+    border: 2px solid orange;
+    background-color: orange;
+    border-radius: 5px;
+    color: white;
+}
+/* Add styles for larger screens here */
+@media screen and (min-width: 768px) {
+    /* Example: Adjust the header navigation style for larger screens */
+    header nav {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+}
+
+/* Add styles for medium-sized screens here */
+@media screen and (max-width: 767px) {
+    /* Example: Adjust the header navigation style for medium-sized screens */
+    header nav {
+        flex-direction: column;
+        align-items: center;
+    }
+}
+
+/* Add styles for smaller screens here */
+@media screen and (max-width: 480px) {
+    /* Example: Adjust font sizes for smaller screens */
+    body {
+        font-size: 14px;
+    }
+
+    /* Example: Make the header logo smaller for small screens */
+    header .left {
+        font-size: 24px;
+    }
+}
